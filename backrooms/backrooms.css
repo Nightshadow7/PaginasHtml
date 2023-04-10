@@ -1,0 +1,138 @@
+.border{
+  border-radius: 15px;
+}
+
+.imageBack{
+  border-radius: 10px;
+}
+
+.nav{
+  font-size: 50px;
+}
+
+.logo{
+  width: 100px;
+  border-radius: 100%;
+}
+
+h1{
+  color: rgb(184, 157, 126);
+}
+
+p{
+  color: rgb(153, 28, 28);
+  font-size: 20px;
+}
+
+body{
+  background-repeat: no-repeat; 
+  background-image: url(/fondos/fondo_backrooms.png); 
+  background-size:cover 
+}
+
+
+
+.card{
+  width: 110px;
+  height: 50px;
+  background: #07182E;
+  position: relative;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 5px 3px 3px ;
+}
+.cardText{
+  z-index: 1;
+  color: white;
+  font-size: 23px;
+  font-family: Helvetica Neue;
+  padding-top: 14px;
+
+}
+.card::before{
+  content: "";
+  position: absolute;
+  width: 170px;
+  background-image: linear-gradient(180deg,#e55d87,#5fc3e4);
+  height: 95%;
+  animation:border 3.6s linear infinite;
+  transition: all 0.1s linear;
+}
+@keyframes border {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+.card::after{
+  content: "";
+  position: absolute;
+  background: #07182E;
+  inset: 4px;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+.ying-yang{
+  width: 96px;
+  height: 48px;
+  background: white;
+  border-color: black;
+  position: fixed;
+  border-style: solid;
+  border-width: 2px 2px 50px 2px;
+  animation: spin 8s linear infinite;
+  bottom: 0;
+  right: 0;
+  z-index: 9999;
+}
+.ying-yang::before{
+  content: "";
+  background: white;
+  border: 18px solid black;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+}
+.ying-yang::after{
+  content: "";
+  background: black;
+  border: 18px solid white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+}
+@keyframes spin{
+  100%{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.custom-color {
+  background-color: #060809; /* Reemplaza con el color que desees */
+  color: #fff; /* Reemplaza con el color del texto que desees */
+}
+
+/* Color del acordeón desplegado */
+.accordion-button:not(.collapsed) {
+  background-color: #3f4e91; /* Cambiar aquí el color deseado */
+  color: #ffffff; /* Cambiar aquí el color deseado del texto */
+}
