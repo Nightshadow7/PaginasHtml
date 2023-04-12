@@ -11,8 +11,8 @@
   <link rel="shortcut icon" type="image/x-icon" href="/logos/logo_pagina.ico">
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark" >
       <div class="container-fluid d-flex ">
-          <a class="navbar-brand " href="backrooms/backrooms.html" style="font-size: 40px;">
-            <img src="logos/logo_navbar.jpeg" alt="logo" style="width:90px;" class="rounded-pill">
+          <a class="navbar-brand " href="/backrooms/backrooms.html" style="font-size: 40px;">
+            <img src="/logos/logo_navbar.jpeg" alt="logo" style="width:90px;" class="rounded-pill">
             Backrooms
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation" >
@@ -22,7 +22,7 @@
           <div class="collapse navbar-collapse ofset-end" id="navbarTogglerDemo03" style="flex-grow: 0;">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active px-5" aria-current="page" href="index.html" style="text-align: end; font-size: 20px;">
+                  <a class="nav-link active px-5" aria-current="page" href="/index.html" style="text-align: end; font-size: 20px;">
                     <button type="button" class="btn btn-outline-info card">
                       <p class="cardText">
                         Home
@@ -31,7 +31,7 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active px-5" href="levels/levels.html" style="text-align: end; font-size: 20px;">
+                  <a class="nav-link active px-5" href="/levels/levels.html" style="text-align: end; font-size: 20px;">
                     <button type="button" class="btn btn-outline-info card">
                       <p class="cardText">
                         Levels
@@ -40,7 +40,7 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active px-5" href="contact/contact.html" style="text-align: end; font-size: 20px;">
+                  <a class="nav-link active px-5" href="/contact/contact.html" style="text-align: end; font-size: 20px;">
                     <button type="button" class="btn btn-outline-info card" style=" font-size: 20px;">
                       <p class="cardText">
                         Contact
@@ -59,19 +59,90 @@
 </head>
 <body>
 
-  <div class="container">
-    <div class="c1 p2">
-      <div class="row">
-        <div class="col-1">
-          <a href="#" class="position-fixed bottom-0 end-0 mb-3 me-3 border">
-            <div class="yin-yang">
-              <br><br><br>
-            </div>
-          </a>
-        </div>
-      </div>
+  <header class="content header">
+    <h2 class="title">Inicio</h2>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+         Ipsam necessitatibus odio quisquam reprehenderit quas, 
+         obcaecati, harum hic molestiae sequi ipsa nihil id tempore explicabo 
+        libero vero quia asperiores similique dicta.
+    </p>
+
+    <div class="btn-home">
+        <a href="#" class="btn">Saber mas</a>
+        <a href="#" class="btn">Saber mas</a>
     </div>
-  </div>
+</header>
+
+<section class="content sau">
+
+    <h2 class="title">Productos</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing 
+        elit. Veritatis excepturi dolore, harum asperiores 
+        cupiditate officiis quia odit reiciendis quidem iure 
+        architecto laudantium 
+        nihil saepe pariatur vel labore molestias consectetur veniam?</p>
+    
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fab fa-angular"></i>
+            <h3>Lorem</h3>
+            <p>labore molestias consectetur veniam</p>
+        </div>
+        <div class="box">
+            <i class="fab fa-apple"></i>
+            <h3>Lorem</h3>
+            <p>labore molestias consectetur veniam</p>
+        </div>
+        <div class="box">
+            <i class="fab fa-android"></i>
+            <h3>Lorem</h3>
+            <p>labore molestias consectetur veniam</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="content about">
+
+    <h2 class="title">Nosotros</h2>
+    <p>Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Ut soluta similique 
+        quia reprehenderit eligendi aliquam. Sit 
+        odio impedit quibusdam. Velit corporis, 
+        optio debitis quidem ex ipsam rerum dolorem autem sequi.
+    </p>
+
+    <a href="#" class="btn">Saber mas</a>
+
+</section>
+
+<section class="content price">
+
+    <article class="contain">
+        <h2 class="title">Precio</h2>
+        <p>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Ut soluta similique 
+            quia reprehenderit eligendi aliquam. Sit 
+            odio impedit quibusdam. Velit corporis, 
+            optio debitis quidem ex ipsam rerum dolorem autem sequi.
+        </p>
+
+        <a href="#" class="btn">Saber precio</a>
+
+    </article>
+
+</section>
+
+<section class="content contact">
+    <h2 class="title">Contacto</h2>
+    <p>48481548</p>
+    <figure class="map">
+        <img src="img/mapa.png" height="220px" width="100%" alt="mapa">
+    </figure>
+</section>
 
 
 
@@ -89,20 +160,20 @@
           <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <!-- <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                   Nombre
                 </button>
               </h2>
               <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
+                <!-- <div class="accordion-body">
                   <div class="border">
                     Mi nombre es Anthoni
                   </div>
-                </div>
-              </div>
+                </div> -->
+              </div> -->
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingTwo">
+              <!-- <h2 class="accordion-header" id="flush-headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                   Detalles
                 </button>
@@ -111,7 +182,7 @@
                 <div class="accordion-body">
                   <div class="border">Soy developer Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate in perspiciatis deserunt quis porro, fugiat similique voluptas iste repellendus eveniet, illo rem, quas at distinctio quia suscipit? Saepe, commodi.</div>
                 </div>
-              </div>
+              </div> -->
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingThree">
@@ -122,6 +193,11 @@
               <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
                   <div class="border">Si quieres colaborar con la causa se aceptan donativos en el siguiente enlace</div>
+                  <a href="https://recarga.nequi.com.co/bdigitalpsl/#!/">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Repetivos
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
